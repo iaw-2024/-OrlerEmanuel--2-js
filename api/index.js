@@ -4,8 +4,8 @@ const app = express();
 
 
 app.get('/locations', (req, res) => {res.sendFile(path.join(process.cwd(),"public","dom","locations.json"))});
-app.get("/express", (req, res) => res.sendFile("index.html", { root: '\express' }));
-app.get("/cliente_servidor", (req, res) => res.sendFile("index.html", { root: '\cliente_servidor' }));
+app.get("/express", (req, res) => res.sendFile(path.join(process.cwd(),"public","express","index.html")));
+app.get("/cliente_servidor", (req, res) => res.sendFile(path.join(process.cwd(),"public","cliente_servidor","index.html")));
 app.use(express.static('public'))
 
 
