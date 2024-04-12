@@ -1,7 +1,9 @@
 const express = require("express");
+const path = require("path");
 const app = express();
 
-app.get('/locations', (req, res) => {res.sendFile('locations.json', {root: __dirname})});
+
+app.get('/locations', (req, res) => {res.sendFile(path.join(process.cwd(),"public","dom","locations.json"))});
 app.get("/express", (req, res) => res.sendFile("index.html", { root: '\express' }));
 app.get("/cliente_servidor", (req, res) => res.sendFile("index.html", { root: '\cliente_servidor' }));
 app.use(express.static('public'))
