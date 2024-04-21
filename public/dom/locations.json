@@ -1,0 +1,27 @@
+[
+    {
+      "name": "New York City",
+      "population": "8.4 million",
+      "landmark": "Statue of Liberty",
+      "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean."
+    },
+    {
+      "name": "Paris",
+      "population": "2.1 million",
+      "landmark": "Eiffel Tower",
+      "description": "Paris, France's capital, is a major European city and a global center for art, fashion, and culture."
+    },
+    {
+      "name": "Tokyo",
+      "population": "9.7 million",
+      "landmark": "Tokyo Tower",
+      "description": "Tokyo, Japan's busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples."
+    },
+    {
+      "name": "London",
+      "population": "9.3 million",
+      "landmark": "Big Ben",
+      "description": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times."
+    }
+  ]
+  
